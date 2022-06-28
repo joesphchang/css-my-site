@@ -1,7 +1,36 @@
 body {
     text-align: center;
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, verdana, sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 215px auto 0 auto;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; 
+    font-weight: normal;
+}
+
+h1, h2 {
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+    color: #11999E;
+}
+
+.middle-container {
+    margin-top: 50px;
 }
 
 .header-container {
@@ -10,16 +39,9 @@ body {
     padding-top: 100px;
 }
 
-.middle-container {
-    width: 200px;
+.profile-pic {
+    width: 250px;
     height: 200px;
-    background-color: red;
-}
-
-.bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
 }
 
 .pro {
